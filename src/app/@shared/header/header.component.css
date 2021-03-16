@@ -1,0 +1,39 @@
+.header{
+  background: #dcbc81;
+  box-shadow: 0 2px 5px -2px grey;
+  color: #fff;
+  height: 30vh;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  padding: 0px;
+}
+
+.item-list {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.acessar-conta {
+  background-color: #fff;
+  border: 0;
+  color: #333;
+  position: relative;
+  top: 10px;
+  margin-left: 10px;
+}
