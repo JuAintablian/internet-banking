@@ -2,7 +2,7 @@
   background: #dcbc81;
   box-shadow: 0 2px 5px -2px grey;
   color: #fff;
-  height: 30vh;
+  height: 20vh;
   padding: 30px;
 
   display: flex;
@@ -30,9 +30,7 @@
 }
 
 .acessar-conta {
-  background-color: #fff;
   border: 0;
-  color: #333;
   position: relative;
   top: 10px;
   margin-left: 10px;

@@ -1,0 +1,11 @@
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 50px 150px 50px 150px
+}
+
+/* input.ng-touched.ng-invalid {
+  border: 1px solid red
+} */

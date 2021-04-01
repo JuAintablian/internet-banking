@@ -1,0 +1,30 @@
+<div class="d-flex justify-content-center flex-column pt-5 pb-5">
+  <div class="text-center">
+    <h3>Você está a um passo de criar a sua conta Training Banking</h3>
+  </div>
+  <div class="container">
+    <div class="row cadastro">
+      <div class="col-lg-12">
+        <form class="form pl-5" [formGroup]="formGroup">
+          <div class="form-group">
+            <input type="text" formControlName="nome" class="form-control" [ngClass]="validField('nome')" id="nome" placeholder="Nome">
+          </div>
+          <div class="form-group pt-2">
+            <input type="number" formControlName="cpf" class="form-control" [ngClass]="validField('cpf')" id="cpf" placeholder="CPF">
+          </div>
+          <div class="form-group pt-2">
+            <input type="number" formControlName="celular" class="form-control" [ngClass]="validField('celular')" id="celular" placeholder="Celular">
+          </div>
+          <div class="form-group pt-2">
+            <input type="email" formControlName="email" class="form-control" [ngClass]="validField('email')" id="email" placeholder="Email">
+          </div>
+          <div class="form-group pt-2">
+            <input type="text" formControlName="endereco" class="form-control" [ngClass]="validField('endereco')" id="endereco" placeholder="endereco">
+          </div>
+  
+          <button type="submit" class="btn btn-outline-dark" (click)="saveDatas()" >Salvar</button>
+        </form>    
+      </div>
+    </div>
+  </div>
+</div>
